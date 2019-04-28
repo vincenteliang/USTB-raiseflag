@@ -191,7 +191,7 @@ header > img {
 }
 
 #mid {
-    height: 1030px;
+    height: 100vh;
     position: relative;
     color: #FEFEFE;
     background-image: -moz-linear-gradient(top, #c3eafb, #b7e4fe);

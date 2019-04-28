@@ -212,7 +212,7 @@ header > img {
 #mid .bcc .notice {
     max-width: 569px;
     height: 280px;
-    background-image: url("../img/notice.png");
+    /*background-image: url("../img/notice.png");*/
     background-repeat: no-repeat;
     background-size: contain;
     background-size: 100%;

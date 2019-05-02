@@ -206,7 +206,7 @@ header > img {
     background-size:100% 100%;
     width: 100%;
     height: 100%;
-    padding-top: 30px;
+    /*padding-top: 30px;*/
     position: relative;
 }
 
@@ -235,15 +235,16 @@ header > img {
 }
 
 #mid .bcc .flag_g {
-    width: 50%; /*218px;*/
-    background-image: url("../img/flagpole.png");
+    width: 100%; /*218px;*/
+    background-image: url("../img/flagpole.jpg");
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: 100%;
     position: absolute;
     left: 0;
     bottom: 0;
-    opacity: 0;
+    z-index: 0;
+    /*opacity: 0;*/
 }
 
 #mid .bcc .flag {
@@ -282,6 +283,7 @@ header > img {
     position: relative;
     left: 2%;
     display: none;
+    z-index: 1;
 }
 
 #mid .bcc .bubble div {
@@ -347,32 +349,32 @@ header > img {
 /*background-color: #91D2FE;*/
 /*}*/
 
-@media screen and (min-width: 540px) {
-    #mid {
-        height: 1930px;
-    }
+/*@media screen and (min-width: 540px) {*/
+    /*#mid {*/
+        /*height: 1930px;*/
+    /*}*/
 
-    #mid .bcc {
-        height: 1900px;
-    }
-}
+    /*#mid .bcc {*/
+        /*height: 1900px;*/
+    /*}*/
+/*}*/
 
-@media screen and (min-width: 360px) and (max-width: 540) {
-    #mid {
-        height: 1230px;
-    }
+/*@media screen and (min-width: 360px) and (max-width: 540) {*/
+    /*#mid {*/
+        /*height: 1230px;*/
+    /*}*/
 
-    #mid .bcc {
-        height: 1200px;
-    }
-}
+    /*#mid .bcc {*/
+        /*height: 1200px;*/
+    /*}*/
+/*}*/
 
-@media screen and (max-width: 480px) {
-    #mid {
-        height: 780px;
-    }
+/*@media screen and (max-width: 480px) {*/
+    /*#mid {*/
+        /*height: 780px;*/
+    /*}*/
 
-    #mid .bcc {
-        height: 750px;
-    }
-}
+    /*#mid .bcc {*/
+        /*height: 750px;*/
+    /*}*/
+/*}*/
